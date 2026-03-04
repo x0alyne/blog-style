@@ -75,8 +75,10 @@ border-left: 20px solid #f8dee4;
 -o-transition: all 0.5s ease-out;
 }
 
-iframe{
+iframe[src*="cbox"]{
+border:3px solid #f3c8d2;
 border-radius:6px;
+box-shadow:0 8px 25px rgba(0,0,0,0.08);
 }
 
 .headerr {
