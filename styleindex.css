@@ -3,7 +3,7 @@
 body {
 background-image: linear-gradient(rgba(249,240,243,0.45), rgba(249,240,243,0.45)), url(https://i.imgur.com/QWOgZ.png) !important;
 background-size:15%;
-  font-family: arial;
+font-family: arial;
 font-size: 17px;
 background-attachment:fixed;
 cursor: url(http://i.imgur.com/ZOrzC.png),auto;
@@ -17,6 +17,12 @@ padding:1px;
 text-decoration:none;
 color:#e28aa2;
 font-weight: bold;
+::-moz-selection {
+background:#FFFFFF;
+color:#000000;
+}
+::selection {
+color:#ffffff;
 }
 
 a:hover{
@@ -29,9 +35,20 @@ a{
 transition: all 0.3s ease;
 }
 
-u {color: #000; border-bottom:2px solid #e28aa2; text-decoration: none;}
-b {color: #000;}
-i {color: #000;text-decoration:none;}
+u {
+color: #000;
+border-bottom:2px solid #e28aa2; 
+text-decoration: none;
+}
+
+b {
+color: #000;
+}
+
+i {
+color: #000;
+text-decoration:none;
+}
   
 .jump-link a{
 font-style: italic;
@@ -39,7 +56,7 @@ font-style: italic;
   
 blockquote {
 background:#fff;
-  border: 1px dashed #f3c8d2;
+border: 1px dashed #f3c8d2;
 border-radius:10px;
 border-left: 20px solid #f3c8d2;
 padding: 8px;
@@ -68,8 +85,11 @@ text-align: center;
 font-family: 'Croissant One', cursive;
 -webkit-transition:1s;
 }
+
 .headerr:hover{
-text-shadow: 0 0 1em #e28aa2, 0 0 1em #e28aa2;}
+text-shadow: 0 0 1em #e28aa2, 0 0 1em #e28aa2;
+}
+
 img{
 padding:4px;
 -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.1)))
@@ -131,7 +151,7 @@ font-size:14px;
 color: #000;
 font-weight: bold;
 text-align: center;
-  text-transform:lowercase; 
+text-transform:lowercase; 
 font-size:17px;
 letter-spacing: 1px;
 }
@@ -181,6 +201,7 @@ transition: all 0.4s ease-in-out;
 -moz-transition:All 1s ease;
 -o-transition:All 1s ease;
 }
+
 a.ex:hover {
 background:#f3c8d2;color:#000;
 border:1px solid #f3c8d2;
@@ -190,7 +211,6 @@ cursor:url(http://cur.cursors-4u.net/others/oth-6/oth589.cur), progress;
 letter-spacing: 2px;
 }
 
-  
 .title {
 color: #000;
 font-weight: bold;
@@ -211,24 +231,24 @@ border-bottom:4px double #f3c8d2;
   }
   
 .h1 {
-  color: #000;
-  margin-top: 15px;
-  background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVjdQtQKHLP4d3MlY6Z2kpGPkKizr6ZwhAEpoKKjRyEBau0Zhj2CNzljlBJ-1RnRdqncFoWbJ81I3uyTxmICprP41liLykKs45_V3HaA8ww_ZPpx06Yy4YwU8ubrSihnRjGKMCY2uT2-2G/s1600/bgunadot5.gif);
-  border-left: 20px solid #F5BCA9;
-  background-size:14%;
-  padding: 6px;
-  text-align: left;
-  font-size:17px;
-  text-transform: uppercase;
-  }
+color: #000;
+margin-top: 15px;
+background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVjdQtQKHLP4d3MlY6Z2kpGPkKizr6ZwhAEpoKKjRyEBau0Zhj2CNzljlBJ-1RnRdqncFoWbJ81I3uyTxmICprP41liLykKs45_V3HaA8ww_ZPpx06Yy4YwU8ubrSihnRjGKMCY2uT2-2G/s1600/bgunadot5.gif);
+border-left: 20px solid #F5BCA9;
+background-size:14%;
+padding: 6px;
+text-align: left;
+font-size:17px;
+text-transform: uppercase;
+}
   
 .h2 {
-  color: #888888;
-  background:#F8ECE0;
-  text-align: center;
-  font-size:17px;
-  text-transform: uppercase;
-  }
+color: #888888;
+background:#F8ECE0;
+text-align: center;
+font-size:17px;
+text-transform: uppercase;
+}
 
 a.navi {
 -webkit-transition:All 0.5s ease;
@@ -252,6 +272,7 @@ text-align: center;
 top: 100px; 
 font-weight: bold;
 }
+
 a.navi:hover {
 text-decoration: none;
 padding-left: 12px;
