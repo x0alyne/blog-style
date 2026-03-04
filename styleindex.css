@@ -9,6 +9,15 @@ background-attachment:fixed;
 cursor: url(http://i.imgur.com/ZOrzC.png),auto;
 }
 
+::selection {
+background: #ffffff; /* Safari */
+color: #ffffff;
+}
+::-moz-selection {
+background: #ffffff; /* Firefox */
+color: #ffffff;
+}
+
 a:link,a:visited{
 padding:1px;
 -webkit-transition:All 0.6s ease;
@@ -17,12 +26,6 @@ padding:1px;
 text-decoration:none;
 color:#e28aa2;
 font-weight: bold;
-::-moz-selection {
-background:#FFFFFF;
-color:#000000;
-}
-::selection {
-color:#ffffff;
 }
 
 a:hover{
