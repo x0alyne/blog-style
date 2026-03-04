@@ -9,13 +9,14 @@ background-attachment:fixed;
 cursor: url(http://i.imgur.com/ZOrzC.png),auto;
 }
 
-::selection {
-background: #ffffff;
-color: #ffffff;
+::selection{
+background:#ffffff;
+color:#ffffff;
 }
-::-moz-selection {
-background: #ffffff;
-color: #ffffff;
+
+::-moz-selection{
+background:#ffffff;
+color:#ffffff;
 }
 
 a:link,a:visited{
