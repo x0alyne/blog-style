@@ -10,11 +10,11 @@ cursor: url(http://i.imgur.com/ZOrzC.png),auto;
 }
 
 ::selection {
-background: #ffffff; /* Safari */
+background: #ffffff;
 color: #ffffff;
 }
 ::-moz-selection {
-background: #ffffff; /* Firefox */
+background: #ffffff;
 color: #ffffff;
 }
 
