@@ -1,0 +1,301 @@
+<style type="text/css">
+#navbar-iframe {display: none;
+}
+  
+body {
+background-image: linear-gradient(rgba(249,240,243,0.45), rgba(249,240,243,0.45)), url(https://i.imgur.com/QWOgZ.png) !important;
+background-size:15%;
+  font-family: arial;
+font-size: 17px;
+background-attachment:fixed;
+cursor: url(http://i.imgur.com/ZOrzC.png),auto;
+}
+
+a:link,a:visited{
+padding:1px;
+-webkit-transition:All 0.6s ease;
+-moz-transition:All 0.6s ease;
+-o-transition:All 0.6s ease;
+text-decoration:none;
+color:#e28aa2;
+font-weight: bold;
+}
+
+a:hover{
+font-weight: bold;
+cursor:url(http://cur.cursors-4u.net/others/oth-6/oth589.cur), progress;
+letter-spacing: 2px;
+}
+  
+a{
+transition: all 0.3s ease;
+}
+
+u {color: #000; border-bottom:2px solid #e28aa2; text-decoration: none;}
+b {color: #000;}
+i {color: #000;text-decoration:none;}
+  
+.jump-link a{
+font-style: italic;
+}
+  
+blockquote {
+background:#fff;
+  border: 1px dashed #f3c8d2;
+border-radius:10px;
+border-left: 20px solid #f3c8d2;
+padding: 8px;
+-webkit-transition: all 0.5s ease-out;
+-moz-transition: all 0.5s ease-out;
+-o-transition: all 0.5s ease-out;
+}
+
+blockquote:hover {
+border-left: 20px solid #f8dee4;
+-webkit-transition: all 0.5s ease-out;
+-moz-transition: all 0.5s ease-out;
+-o-transition: all 0.5s ease-out;
+}
+
+.headerr {
+width:800px;
+margin-top:70px;
+padding:5px;
+letter-spacing: 2px;
+text-shadow: 0 0 0.2em #e28aa2, 0 0 0.2em #e28aa2;
+font-size:70px;
+color:#fff;
+margin-bottom:10px;
+text-align: center;
+font-family: 'Croissant One', cursive;
+-webkit-transition:1s;
+}
+.headerr:hover{
+text-shadow: 0 0 1em #e28aa2, 0 0 1em #e28aa2;}
+img{
+padding:4px;
+-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.1)))
+-webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -o-transition: all 0.5s ease;
+}
+
+.footerquote{
+text-align:center;
+margin:40px auto 60px auto;
+color:#e28aa2;
+font-size:14px;
+letter-spacing:2px;
+font-weight: bold;
+}
+  
+.board {
+background:#ffffff;
+color:#000;
+border: 3px solid #f3c8d2;
+box-shadow:0 12px 30px rgba(0,0,0,0.12);
+padding:40px;
+max-width:800px;
+width:100%;
+overflow-x: hidden;
+overflow-y: auto;
+font-size:17px;
+border-radius:5px;
+text-align:left;
+font-family: arial;
+font-size: 14px;
+margin: 30px auto;
+}
+  
+.board blogger{
+display:block;
+margin-bottom:25px;
+}
+
+.newsletter{
+background:#ffffff;
+color:#000;
+border:3px solid #f3c8d2;
+box-shadow:0 12px 30px rgba(0,0,0,0.12);max-width:800px;
+margin:20px auto;
+padding:40px;
+border-radius:5px;
+text-align:center;
+font-family:arial;
+font-size:14px;
+}
+
+.newsletter input[type="email"]{
+border:2px solid #f3c8d2;
+padding:5px;
+font-size:14px;
+}
+  
+.newsletter h3{
+color: #000;
+font-weight: bold;
+text-align: center;
+  text-transform:lowercase; 
+font-size:17px;
+letter-spacing: 1px;
+}
+ 
+.subbtn{
+background:#f3c8d2;
+color:#ffffff;
+border:2px solid #fff;
+padding:5px 10px;
+font-size:14px;
+font-weight:bold;
+cursor:pointer;
+transition:0.4s;
+}
+
+.subbtn:hover{
+letter-spacing:2px;
+cursor:url(http://cur.cursors-4u.net/others/oth-6/oth589.cur), progress;
+}
+
+.navigation {
+border: 3px solid #f3c8d2;
+border-radius:3px;
+color: #ffffff;
+-webkit-transition: 1s;
+padding:2px;
+}
+
+a.ex {
+width:70px; padding:2px 5px;
+margin:3px;
+background:#f3c8d2; display:inline-block;
+text-align:center;
+color:#000;
+border:1px solid #f3c8d2;
+font-size:17px;
+letter-spacing:0px;
+-webkit-transition: all 0.4s ease-in-out;
+-moz-transition: all 0.4s ease-in-out;
+-o-transition: all 0.4s ease-in-out;
+-ms-transition: all 0.4s ease-in-out;
+transition: all 0.4s ease-in-out;
+-webkit-transform: perspective(400px) rotateX(0deg);
+-moz-transform:perspective(400px) rotateX(0deg);
+-o-transform:perspective(400px) rotateX(0deg) ;
+-webkit-transition:All 1s ease;
+-moz-transition:All 1s ease;
+-o-transition:All 1s ease;
+}
+a.ex:hover {
+background:#f3c8d2;color:#000;
+border:1px solid #f3c8d2;
+border-radius:10px;
+font-weight: bold;
+cursor:url(http://cur.cursors-4u.net/others/oth-6/oth589.cur), progress;
+letter-spacing: 2px;
+}
+
+  
+.title {
+color: #000;
+font-weight: bold;
+text-align: center;
+text-transform:lowercase; 
+font-size:17px;
+letter-spacing: 1px;
+border-bottom:4px double #f3c8d2;
+}
+  
+.comment {
+  text-align: center;
+  font-size:17px;
+  letter-spacing: 2px; 
+  text-transform:lowercase; 
+  margin-bottom: 7px;
+  background: #f9f0e9;
+  }
+  
+.h1 {
+  color: #000;
+  margin-top: 15px;
+  background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVjdQtQKHLP4d3MlY6Z2kpGPkKizr6ZwhAEpoKKjRyEBau0Zhj2CNzljlBJ-1RnRdqncFoWbJ81I3uyTxmICprP41liLykKs45_V3HaA8ww_ZPpx06Yy4YwU8ubrSihnRjGKMCY2uT2-2G/s1600/bgunadot5.gif);
+  border-left: 20px solid #F5BCA9;
+  background-size:14%;
+  padding: 6px;
+  text-align: left;
+  font-size:17px;
+  text-transform: uppercase;
+  }
+  
+.h2 {
+  color: #888888;
+  background:#F8ECE0;
+  text-align: center;
+  font-size:17px;
+  text-transform: uppercase;
+  }
+
+a.navi {
+-webkit-transition:All 0.5s ease;
+-moz-transition:All 0.5s ease;
+-o-transition:All 0.5s ease;
+color:#f3c8d2;
+-moz-box-shadow: 3px 3px 4px #f3c8d2;
+-webkit-box-shadow: 3px 3px 4px #f3c8d2;
+box-shadow: 1px 1px 5px #f3c8d2;
+padding-left: 12px;
+padding-right:11px;
+padding-top:8px;
+padding-bottom:8px;
+margin-bottom: 5px;
+font-size:17px;
+margin:1px;
+border-radius:30px;
+background:#FFF;
+border:2px solid #f3c8d2;
+text-align: center;
+top: 100px; 
+font-weight: bold;
+}
+a.navi:hover {
+text-decoration: none;
+padding-left: 12px;
+padding-right:11px;
+padding-top:8px;
+padding-bottom:8px;
+color:#fff;
+font-size:22px;
+text-align: center;
+margin:1px;
+background:#f3c8d2;
+border:2px solid #fff;
+}
+
+.searchbox{
+text-align:center;
+margin:25px auto;
+}
+
+.searchbox input{
+border:2px solid #f3c8d2;
+padding:5px;
+font-size:14px;
+width:200px;
+color:#e28aa2;
+}  
+  
+::-webkit-scrollbar {
+width: 10px;
+height: 10px;
+}
+::-webkit-scrollbar-button:start:decrement,::-webkit-scrollbar-button:end:increment {
+height: 10px;
+width: 10px;
+display: block;
+background: #fff;
+border: 2px solid #f3c8d2;
+}
+::-webkit-scrollbar-track-piece {
+background-color: #fff;
+}
+::-webkit-scrollbar-thumb:vertical, ::-webkit-scrollbar-thumb:horizontal {
+background-color: #fff;
+border: 2px solid #f3c8d2;
+}
