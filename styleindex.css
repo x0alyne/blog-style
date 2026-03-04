@@ -75,6 +75,10 @@ border-left: 20px solid #f8dee4;
 -o-transition: all 0.5s ease-out;
 }
 
+iframe{
+border-radius:6px;
+}
+
 .headerr {
 width:800px;
 margin-top:70px;
