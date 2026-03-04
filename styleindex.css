@@ -1,6 +1,8 @@
 <style>
-navbar-iframe {
-display: none;
+#navbar-iframe{
+display:none !important;
+height:0px !important;
+visibility:hidden !important;
 }
   
 body {
